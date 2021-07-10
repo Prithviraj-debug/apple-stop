@@ -475,6 +475,23 @@ ul {
     margin-top: 20px;
   }
 
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .covid {
+    font-size: 15px;
+  }
+
+  .covid p {
+    font-size: 15px;
+}
+
+.covid-btn {
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
   .links .links-inner {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -512,6 +529,35 @@ ul {
 
   .partner ul a img {
     width: 100px;
+  }
+
+  .categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .covid {
+    font-size: 10px;
+  }
+
+  .covid p {
+    font-size: 13px;
+}
+
+.covid-btn {
+    padding: 0px 20px;
+    font-size: 15px;
+}
+  
+  .locate h3 {
+    font-size: 20px;
+  }
+  
+  .drop select {
+    font-size: 18px;
+  }
+  
+  .locate img {
+    width: 40px;
   }
 
   .links .links-inner {
