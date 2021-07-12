@@ -83,3 +83,36 @@ p {
     color: #aaa;
     font-size: 15px;
 }
+
+@media (max-width: 480px) {
+    .login-div {
+        width: 300px;
+    }
+    
+    .fields input {
+        font-size: 15px;
+    }
+
+    .signin-button {
+        width: 100%;
+        height: 50px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 350px) {
+    .login-div {
+        width: 90%;
+    }
+    
+    .fields input {
+        font-size: 10px;
+    }
+
+    .signin-button {
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
