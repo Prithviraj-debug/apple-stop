@@ -160,8 +160,11 @@ ul {
   font-weight: bold;
 }
 
-.cards a:hover i {
+.cards i {
   transition: 0.6s ease-in-out;
+}
+
+.cards a:hover i {
   margin-left: 10px;
 }
 
@@ -287,8 +290,11 @@ ul {
   font-weight: bold;
 }
 
-.airpods a:hover i {
+.airpods i {
   transition: 0.6s ease-in-out;
+}
+
+.airpods a:hover i {
   margin-left: 10px;
 }
 
@@ -310,8 +316,11 @@ ul {
   font-size: 25px;
 }
 
-.max a:hover i {
+.max i {
   transition: 0.6s ease-in-out;
+}
+
+.max a:hover i {
   margin-left: 10px;
 }
 
@@ -329,7 +338,7 @@ ul {
 }
 
 .ipad p {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 20px;
 }
 
@@ -361,8 +370,11 @@ ul {
   font-weight: bold;
 }
 
-.ipad a:hover i {
+.ipad i {
   transition: 0.6s ease-in-out;
+}
+
+.ipad a:hover i {
   margin-left: 10px;
 }
 
@@ -394,4 +406,26 @@ ul {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 22px;
+}
+
+@media (max-width: 950px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  } 
+}
+
+@media (max-width: 630px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  } 
+  .ipad p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 370px) {
+  .ipad div img {
+    width: 80%;
+    height: auto;
+  }
 }
