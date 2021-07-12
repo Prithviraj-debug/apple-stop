@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/cart.css">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bag</title>
+</head>
+<body>   
+
+  
+  <div class="container bag">
+    <div class="hamburger">
+      <i class="fas fa-bars fa-2x"></i>
+  </div>
+      <!-- Navbar -->
+      <nav class="main-nav">
+          <img src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png" alt="" class="logo"> 
+          <a href="./index.html" class="logo apple">Apple'Stop</a>
+  
+          
+          <ul class="main-menu">
+              <li><a href="./mac.html">Mac</a></li>
+              <li><a href="./ipad.html">iPad</a></li>
+              <li><a href="./iphone.html">iPhone</a></li>
+              <li><a href="./watch.html">Watch</a></li>
+              <li><a href="./tv.html">TV</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+          </ul>
+  
+          <ul class="right-menu">
+              <li>
+                  <a href="#" class="nohover">
+                      <span>
+                          <input type="text" name="search" id="search" placeholder="Search"> 
+                      </span> 
+                      <i class="fas fa-search"></i>
+                  </a>
+              </li>
+              <li>
+                  <a href="./bag.html" class="baag">
+                      <span>
+                          Bag
+                      </span>
+                      
+                      <i class="fas fa-shopping-bag"></i>
+                  </a>
+                  
+              </li>
+  
+              <li>
+                  <a href="./login.html">
+                      <span>
+                          Sign In
+                      </span>
+                      <i class="fas fa-user"></i>
+                  </a>
+              </li>
+  
+          </ul>
+      </nav>
+    <div class="shopping-cart">
+      <div class="shopping-cart-header">
+        <i class="fa fa-shopping-bag cart-icon"></i><span class="badge">3</span>
+        <div class="shopping-cart-total">
+          <span class="lighter-text">Total:</span>
+          <span class="main-color-text">&#8377;135,688</span>
+        </div>
+      </div> <!--end shopping-cart-header -->
+  
+      <ul class="shopping-cart-items">
+        <li class="clearfix">
+          <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MWP22?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1591634795000" alt="item1" />
+          <span class="item-name">AirPods Pro</span>
+          <span class="item-price">&#8377;21,490</span>
+          <span class="item-quantity">Quantity: 01</span>
+        </li>
+  
+        <li class="clearfix">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/71NVDjayU9L._AC_SL1500_.jpg" alt="item1" />
+          <span class="item-name">Apple Watch SE</span>
+          <span class="item-price">&#8377;33,899</span>
+          <span class="item-quantity">Quantity: 01</span>
+        </li>
+  
+        <li class="clearfix">
+          <img src="https://imagineonline.store/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZzgrIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--12b3113481cd074f57e83f57d0f8534b6b946480/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lQTVRBd01IZ3hNREF3UGdZNkJrVlUiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--3847b42f42b1c45c616f0212496bf183b1d8c25d/MGMT3HN_A_2.png" alt="item1" />
+          <span class="item-name">iPhone 12 Pro</span>
+          <span class="item-price">&#8377;80,299</span>
+          <span class="item-quantity">Quantity: 01</span>
+        </li>
+      </ul>
+  
+      <a href="#" class="button checkout" onclick="order()">Checkout</a>
+    </div> <!--end shopping-cart -->
+  </div> <!--end container -->
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <script src="./app.js"></script>
+  
+</body>
+</html>

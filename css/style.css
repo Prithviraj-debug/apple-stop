@@ -75,6 +75,7 @@ ul {
 .right-menu #search {
     border: none;
     border-bottom: 1px solid #262626;
+    background-color: transparent;
 }
 
 .hamburger {
@@ -224,10 +225,10 @@ ul {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   cursor: pointer;
+  transition: ease-in-out 0.2s;
 }
 
 .categories img:hover {
-  transition: ease-in-out 0.2s;
   transform: scale(1.1);
 }
 
@@ -244,8 +245,11 @@ ul {
   font-weight: bold;
 }
 
-.categories a:hover i {
+.categories i {
   transition: 0.6s ease-in-out;
+}
+
+.categories a:hover i {
   margin-left: 10px;
 }
 
@@ -266,7 +270,7 @@ ul {
 }
 
 .covid p {
-    margin: 10px 0px 20px;
+    margin: 10px 0px 0px;
     font-size: 20px;
 }
 
@@ -320,8 +324,27 @@ ul {
   border: none;
 }
 
+.locate a {
+  color: #a1a1a1;
+  font-size: 22px;
+  padding-top: 20px;
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.locate i {
+  transition: 0.6s ease-in-out;
+}
+
+.locate a:hover i {
+    margin-left: 10px;
+}
+
 .locate img {
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 10px;
   width: 60px;
   margin: 0 auto;
@@ -406,6 +429,7 @@ ul {
   border-right: 2px solid rgba(0, 0, 0, 0.192);
 }
 
+
 .lock-scroll {
   overflow: hidden;
 }
@@ -475,6 +499,23 @@ ul {
     margin-top: 20px;
   }
 
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .covid {
+    font-size: 15px;
+  }
+
+  .covid p {
+    font-size: 15px;
+}
+
+.covid-btn {
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
   .links .links-inner {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -512,6 +553,35 @@ ul {
 
   .partner ul a img {
     width: 100px;
+  }
+
+  .categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .covid {
+    font-size: 10px;
+  }
+
+  .covid p {
+    font-size: 13px;
+}
+
+.covid-btn {
+    padding: 0px 20px;
+    font-size: 15px;
+}
+  
+  .locate h3 {
+    font-size: 20px;
+  }
+  
+  .drop select {
+    font-size: 18px;
+  }
+  
+  .locate img {
+    width: 40px;
   }
 
   .links .links-inner {

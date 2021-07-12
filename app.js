@@ -10,3 +10,19 @@
 //     card.style.transition = 'all 0.5s ease';
 //     card.style.transform = `rotateY(0deg) rotateX(0deg)`
 // });
+
+            document.querySelector('.hamburger').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+            document.querySelector('.hamburger').addEventListener('click', () => document.querySelector('body').classList.toggle('lock-scroll'));
+            document.querySelector('.baag').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('showbag'));
+
+      function grabbed(){
+        swal("Congrats!", ", Item added to your Bag!", "success");
+      }
+
+      function order(){
+        swal("Congrats!", ", Your order has been Placed!", "success");
+      }
+
+      function success(){
+        swal("Great!", ", Your Account has been Created Successfuly!", "success");
+      }

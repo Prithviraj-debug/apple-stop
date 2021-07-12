@@ -1,0 +1,121 @@
+
+.right-menu .bag {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.main-color-text {
+  color: darkgreen;
+  font-size: 20px;
+}
+
+.badge {
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 1;
+  padding: 3px 7px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.shopping-cart {
+  margin: 0 auto;
+  /* float: right; */
+  background: white;
+  /* width: 320px; */
+  position: relative;
+  border-radius: 3px;
+  padding: 20px;
+}
+.shopping-cart .shopping-cart-header {
+  border-bottom: 1px solid #E8E8E8;
+  padding-bottom: 15px;
+}
+.shopping-cart .shopping-cart-header .shopping-cart-total {
+  float: right;
+}
+.shopping-cart .shopping-cart-items {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  list-style: none;
+}
+.shopping-cart .shopping-cart-items li {
+  margin-bottom: 18px;
+}
+.shopping-cart .shopping-cart-items img {
+  width: 100px;
+  float: left;
+  margin-right: 12px;
+}
+.shopping-cart .shopping-cart-items .item-name {
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+}
+.shopping-cart .shopping-cart-items .item-price {
+  color: rgb(0, 114, 28);
+  margin-right: 8px;
+}
+.shopping-cart .shopping-cart-items .item-quantity {
+  color: #ABB0BE;
+}
+
+.shopping-cart:after {
+  bottom: 100%;
+  left: 89%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: white;
+  border-width: 8px;
+  margin-left: -8px;
+}
+
+.cart-icon {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+
+.button {
+  width: 20%;
+  background: rgb(33, 148, 255);
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 25px 0 15px 0;
+}
+.button:hover {
+  background: rgb(48, 95, 0);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 800px) {
+  .button {
+    width: 40%;
+  }
+}
+
+@media (max-width: 400px) {
+  .button {
+    width: 60%;
+  }
+}
