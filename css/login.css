@@ -270,9 +270,3 @@ button:hover {
   }
 }
 
-/* @media (max-width: 992px) {
-  .alert-validate::before {
-    visibility: visible;
-    opacity: 1;
-  }
-} */
