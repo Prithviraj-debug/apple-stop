@@ -13,3 +13,7 @@
       function success(){
         swal("Great!", "Your Account has been Created Successfuly!", "success");
       }
+
+      function submit(){
+        swal("Thank You!", "We'll Contact you soon..!", "success");
+      }
