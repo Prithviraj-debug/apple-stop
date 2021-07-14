@@ -16,13 +16,22 @@
             document.querySelector('.baag').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('showbag'));
 
       function grabbed(){
-        swal("Congrats!", ", Item added to your Bag!", "success");
+        swal("Congrats!", "Item added to your Bag!", "success");
       }
 
       function order(){
-        swal("Congrats!", ", Your order has been Placed!", "success");
+        swal("Order Placed!", "₹ 135,688 will be debited from your bank account!", "success");
       }
 
       function success(){
-        swal("Great!", ", Your Account has been Created Successfuly!", "success");
+        swal("Great!", "Your Account has been Created Successfuly!", "success");
       }
+      
+      function submit(){
+        swal("Thank You!", "We'll Contact you soon..!", "success");
+      }
+      
+      function bagged(){
+        swal("Congrats!", "Item added to your Bag!", "success");
+      }
+

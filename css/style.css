@@ -429,6 +429,9 @@ ul {
   border-right: 2px solid rgba(0, 0, 0, 0.192);
 }
 
+.iposter {
+  width: 100%;
+}
 
 .lock-scroll {
   overflow: hidden;
