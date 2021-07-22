@@ -1,5 +1,3 @@
-let password = document.validate-input.pass.value;
-let username = document.validate-input.username.value;
 
             document.querySelector('.hamburger').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
             document.querySelector('.hamburger').addEventListener('click', () => document.querySelector('body').classList.toggle('lock-scroll'));
