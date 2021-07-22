@@ -263,11 +263,13 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .airpods div {
   margin: 20px;
   line-height: 2;
+  margin: 0 auto;
 }
 
 .airpods p {
@@ -339,6 +341,10 @@ ul {
 
 .max a:hover i {
   margin-left: 10px;
+}
+
+@media (max-width: 620px) {
+
 }
 
 /* iPad */
