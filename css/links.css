@@ -216,14 +216,15 @@ ul {
   padding: 0 20px 0 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
-.footer-inner div {
+.footer-inner .dev {
   /* margin-bottom: 20px; */
   display: flex;
   align-items: center;
   padding-right: 20px;
+  margin-right: 20px;
   border-right: 1px solid rgba(0, 0, 0, 0.192);
 }
 
@@ -273,6 +274,7 @@ ul {
 }
 
 .airpods div {
+  width: 40%;
   margin: 20px;
   line-height: 2;
   margin: 0 auto;

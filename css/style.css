@@ -400,14 +400,15 @@ ul {
   padding: 0 20px 0 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
-.footer-inner div {
+.footer-inner .dev {
   /* margin-bottom: 20px; */
   display: flex;
   align-items: center;
   padding-right: 20px;
+  margin-right: 20px;
   border-right: 1px solid rgba(0, 0, 0, 0.192);
 }
 
@@ -431,6 +432,12 @@ ul {
 
 .iposter {
   width: 100%;
+}
+
+/* github */
+
+.git .github i {
+  font-size: 30px;
 }
 
 .lock-scroll {
@@ -540,17 +547,6 @@ ul {
   }
 }
 
-/* github */
-
-.git {
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-}
-
-.git .github i {
-  font-size: 30px;
-}
 
 @media (max-width: 630px) {
   .right-menu li a span {
