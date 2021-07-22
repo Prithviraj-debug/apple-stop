@@ -344,7 +344,22 @@ ul {
 }
 
 @media (max-width: 620px) {
+  .airpods {
+    text-align: center;
+  }
+  .airpods img {
+    width: auto;
+    height: 200px;
+  }
 
+  .airpods h3 {
+    padding-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .airpods ul li {
+    font-size: 12px;
+  }
 }
 
 /* iPad */
