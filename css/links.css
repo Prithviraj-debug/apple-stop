@@ -149,8 +149,12 @@ ul {
 }
 
 .cards h3 {
+  border-bottom: 1px solid rgba(116, 116, 116, 0.445);
+  width: fit-content;
+  margin: 0 auto;
   padding-top: 20px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
 }
 
 .cards a {
@@ -297,8 +301,12 @@ ul {
 }
 
 .airpods h3 {
+  border-bottom: 1px solid rgba(116, 116, 116, 0.445);
+  width: fit-content;
+  margin: 0 auto;
   font-size: 30px;
   padding-top: 30px;
+  padding-bottom: 5px;
   margin-bottom: 20px;
 }
 
@@ -368,17 +376,20 @@ ul {
 .ipad {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  text-align: center;
 }
 
 .ipad div {
   margin: 20px;
   padding-bottom: 20px;
+  text-align: center;
   /* border-bottom: 1px solid rgba(0, 0, 0, 0.192); */
 }
 
 .ipad p {
   font-size: 15px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .ipad img {
@@ -396,6 +407,9 @@ ul {
 }
 
 .ipad h3 {
+  border-bottom: 1px solid rgba(116, 116, 116, 0.445);
+  width: fit-content;
+  margin: 0 auto;
   font-size: 30px;
   padding-top: 30px;
   margin-bottom: 20px;
@@ -417,6 +431,17 @@ ul {
   margin-left: 10px;
 }
 
+@media (max-width: 700px) {
+  .ipad {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .ipad img {
+    height: 200px;
+    width: auto;
+  }
+}
+
 /* Apple TV */
 
 .tv div{
@@ -428,6 +453,9 @@ ul {
 }
 
 .tv h3 {
+  border-bottom: 1px solid rgba(116, 116, 116, 0.445);
+  width: fit-content;
+  margin: 0 auto;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -553,13 +581,13 @@ ul {
     grid-template-columns: repeat(1, 1fr);
   } 
   .ipad p {
-    width: 80%;
+    width: 100%;
   }
 }
 
 @media (max-width: 370px) {
   .ipad div img {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
 }
