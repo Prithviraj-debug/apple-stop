@@ -17,3 +17,7 @@
       function submit(){
         swal("Thank You!", "We'll Contact you soon..!", "success");
       }
+           
+            function bagged(){
+        swal("Congrats!", "Item added to your Bag!", "success");
+      }
