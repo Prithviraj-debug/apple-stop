@@ -540,6 +540,18 @@ ul {
   }
 }
 
+/* github */
+
+.git {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.git .github i {
+  font-size: 30px;
+}
+
 @media (max-width: 630px) {
   .right-menu li a span {
     display: none;
