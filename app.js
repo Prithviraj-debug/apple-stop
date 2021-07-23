@@ -10,6 +10,10 @@
               swal("Order Placed!", "₹ 135,688 will be debited from your bank account!", "success");
             }
             
+            function locate(){
+              swal("Sorry!", "This feature is not available yet", "error");
+            }
+            
         function success(){
           if (username == 0) {
             alert("Shit");
