@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Assets/aboutbg.png');
+    background-size: cover;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;   
+    padding-right: 6px;
+    margin-right: 10px;
+    border-right: 1px solid black; 
+}
+
+.apple {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 6px;
+}
+
+.container h2 {
+    /* text-align: center;   */
+    padding-bottom: 10px;
+}
+
+.container p {
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+    line-height: 1.3;
+}
