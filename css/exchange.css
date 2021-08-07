@@ -1,3 +1,7 @@
+body {
+  touch-action: none;
+}
+
 .iposter {
     margin-bottom: 30px;
 }

@@ -1,3 +1,6 @@
+body {
+  touch-action: none;
+}
 
 .right-menu .bag {
   margin: 0 auto;
