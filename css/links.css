@@ -9,7 +9,6 @@ body {
   background: white;
   color: black;
   font-size: 15px;
-  touch-action: none;
   line-height: 1.5;
 }
 
